@@ -19,8 +19,9 @@ haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
 using_uniq(haircuts)
 
 def using_flatten(array)
+  array.flatten
 end
-
+instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
 def using_delet()
 end
 
