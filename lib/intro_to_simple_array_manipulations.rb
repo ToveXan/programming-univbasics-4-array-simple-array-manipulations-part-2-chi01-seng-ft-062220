@@ -8,6 +8,9 @@ using_concat(my_favorite_things, more_favs)
 def using_insert(array, object)
   array.insert(4, object)
 end
+list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
+another_language = "Python"
+using_insert(list_of_programming_languages, another_language)
 
 def using_uniq()
 end
