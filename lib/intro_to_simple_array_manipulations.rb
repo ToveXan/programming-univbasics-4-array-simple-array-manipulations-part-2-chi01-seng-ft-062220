@@ -5,8 +5,8 @@ my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
 more_favs = ["sports cars", "flatiron school"]
 using_concat(my_favorite_things, more_favs)
 
-def using_insert()
-  
+def using_insert(array, object)
+  array.insert(4, object)
 end
 
 def using_uniq()
