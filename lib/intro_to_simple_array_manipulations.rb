@@ -14,6 +14,8 @@ using_insert(list_of_programming_languages, another_language)
 
 def using_uniq()
 end
+haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+
 
 def using_flatten()
 end
