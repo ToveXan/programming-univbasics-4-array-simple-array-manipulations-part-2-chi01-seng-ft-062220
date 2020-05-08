@@ -23,8 +23,10 @@ def using_flatten(array)
 end
 instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
 using_flatten(instruments)
-def using_delet()
+def using_delete(array)
+  array.delete
 end
-
+instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+using_delete(instructors)
 def using_delete_at()
 end
