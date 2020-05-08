@@ -28,5 +28,8 @@ def using_delete(array)
 end
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 using_delete(instructors)
-def using_delete_at()
+def using_delete_at(array, index)
+  array.delete(index)
 end
+famous_robots = ["Johnny 5", "R2D2", "Robocop"]
+using_delete_at(famous_robots, )
