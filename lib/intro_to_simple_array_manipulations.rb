@@ -12,12 +12,13 @@ list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective 
 another_language = "Python"
 using_insert(list_of_programming_languages, another_language)
 
-def using_uniq()
+def using_uniq(array)
+  array.uniq
 end
 haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+using_uniq(haircuts)
 
-
-def using_flatten()
+def using_flatten(array)
 end
 
 def using_delet()
